@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik:ital@1&family=Titillium+Web:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: rgb(24, 166, 231);
+    --cor-secundaria: #FFBF00 ;
+
+    --fonte-principal: 'Titillium Web', sans-serif;
+    --cor-fonte: black;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    font-family: var(--fonte-principal);
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 23vh;
+    height: 135vh;
+    padding-top: 2%;
+    background-color: var(--cor-secundaria);
+}
+
+.logo{
+    width: 70%;
+    height: 13.2%;
+    background-color: var(--cor-primaria);
+    border-radius: 100%;
+}
+
+.navegacao{
+    margin-top: 70%;
+}
+
+li{
+    padding-left: 25%;
+    list-style: none;
+}
+
+a{
+    color: var(--cor-fonte);
+}
+
+.pesquisar:hover, .home:hover, .playlists:hover{
+    background-color: rgba(24, 165, 231, 0.568);
+}
+
+.pesquisar{
+    cursor: pointer;
+}
+
+.perfil{
+    background-color: var(--cor-primaria);
+    width: 100%;
+}
+
+.img_pesquisar{
+    width: 25%;
+    height: 25%;
+    margin-left: 19%;
+}
+
+.img_home{
+    width: 25%;
+    height: 25%;
+    margin-left: 19%;
+}
+
+.img_playlists{
+    width: 25%;
+    height: 25%;
+    margin-left: 19%;
+}
+
+.img_perfil{
+    width: 25%;
+    height: 25%;
+    margin-left: 19%;
+}
+
+main{
+    position: relative;
+    left: 23vh;
+    background-color: var(--cor-primaria);
+    padding: 5%;
+    width: 71.6%;
+    height: 100vh;
+}
+
+.barra_de_pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 3%;
+    margin-top: -16.5vh;
+}
+
+.img_bar_pesuisa{
+    width: 3%;
+}
+
+.barra_pesquisa{
+    width: 70%;
+    height: 5vh;
+    border-radius: 10%;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    text-shadow: 1px 1px 2px black;
+    border: none;
+    outline: none;
+}
+
+/* .img_perfill{
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    gap: 30px;
+} */
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    width: 100%;
+}
+
+.infos_perfil{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Ft_perfil{
+    width: 40%;
+}
+
+.nome_perfil{
+    font-size: 2rem;
+}
+
+.arroba_perfil{
+    font-size: 1.05rem;
+}
+
+.img_3_pontos{
+    width: 3%;
+    height: 3.5vh;
+    cursor: pointer;
+}
+
+.seguidos{
+    padding-top: 12%;
+}
+
+.sec_bloco_seg{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+    gap: 25px;
+}
+
+.bloco_seguido{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffbf00e0;
+    padding-top: 2%;
+    width: 20%;
+    height: 33vh;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 18%;
+}
+
+.bloco_seguido:hover{
+    width: 22%;
+    height: 34vh;
+    background-color: #ffbf00;
+    transition: height 1.2s;
+    transition: width 0.8s;
+}
+
+.img_seguido{
+    width: 56%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* .suas_playlists{
+
+} */
+
+.barra_direita{
+    position: fixed;
+    left: 171.3vh;
+    background-color: var(--cor-secundaria);
+    width: 40vh;
+    height: 100vh;
+    padding-top: 2%;
+}
+
+.sugestao{
+    padding-bottom: 70%;
+}
+
+.suges_musicas{
+    padding-top: 8%;
+}
+
+.primeira_suges{
+    padding-left: 8%;
+    padding-right: 3%;
+    font-size: 0.54rem;
+}
+
+.img_suges{
+    width: 20%;
+    /* box-shadow: 3px 5px 6px var(--cor-primaria); */
+}
+
+.text_prim_suges{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.linha{
+    border-color: black;
+}
+
+.musica_escutada{
+    display: flex;
+    align-items: center;
+    padding: 7%;
+    font-size: 0.9rem;
+    gap: 10px;
+}
+
+.img_mus_esc{
+    width: 38%;
+}
+
+.music_controler{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.img_controler{
+    width: 8%;
+    height: 8%;
+    padding-top: 1%;
+    cursor: pointer;
+}
+
+.img_volume{
+    width: 10%;
+    cursor: pointer;
+}
+
+#img_controler_play{
+    width: 10%;
+    height: 10%;
+    padding-top: 0.2%;
+    cursor: pointer;
+}
