@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&family=Rubik:ital@1&family=Titillium+Web:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: rgb(24, 166, 231);
+    --cor-secundaria: #FFBF00 ;
+
+    --fonte-principal: 'Titillium Web', sans-serif;
+    --cor-fonte: black;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 23vh;
+    height: 100vh;
+    padding-top: 2%;
+    background-color: var(--cor-secundaria);
+}
+
+.logo{
+    width: 70%;
+    height: 18%;
+    background-color: var(--cor-primaria);
+    border-radius: 100%;
+}
+
+.btnn_voltarr{
+    margin-top: 312%;
+    margin-left: 20%;
+    text-decoration: none;
+    color: black;
+}
+
+.btn_voltar{
+    gap: 5px;
+    font-size: 1.2rem;
+    font-family: var(--fonte-principal);
+}
+
+.img_voltar{
+    width: 12%;
+}
+
+main{
+    width: 93%;
+    height: 100vh;
+    margin-left: 7%;
+    background-color: var(--cor-primaria);
+}
+
+.nome_playlist{
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+    margin-left: 19%;
+}
+
+.nomePlaylist{
+    font-size: 1.5rem;
+    font-family: var(--fonte-principal);
+}
+
+.img_lapis{
+    width: 4%;
+    margin-left: 12%;
+    padding: 1%;
+    cursor: pointer;
+}
+
+.img_lapis:hover{
+    background-color: #ffbf00b6;
+    border-radius: 1.2vh;
+}
+
+.musicass{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6%;
+}
+
+.ft_musica{
+    display: inline;
+    margin-left: 7%;
+    font-family: var(--fonte-principal);
+    text-align: center;
+}
+
+.mus_tocando{
+    display: inline;
+}
+
+.img_mus{
+    width: 65%;
+    border-radius: 3vh;
+}
+
+.music_controler{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 1.4%;
+}
+
+.img_controler{
+    width: 3.5%;
+    height: 3.5%;
+    padding-top: 1%;
+    cursor: pointer;
+}
+
+.img_volume{
+    width: 5%;
+    height: 5%;
+    padding-top: 0.2%;
+    cursor: pointer;
+}
+
+#img_controler_play{
+    width: 4.5%;
+    height: 4.5%;
+    padding-top: 0.5%;
+    cursor: pointer;
+}
+
+.lista_mus{
+    font-family: var(--fonte-principal);
+    font-size: 0.8rem;
+    margin-top: 2%;
+}
+
+hr{
+    width: 95%;
+    margin-top: 2.5%;
+    border-color: var(--cor-secundaria);
+}
+
+.mus_list{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 2.5%;
+}
+
+.img_escutando_mus{
+    width: 10%;
+}
+
+.img_album_bottom{
+    width: 16%;
+}
