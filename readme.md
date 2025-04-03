@@ -1,9 +1,19 @@
-<h1> Site de Música </h1>
+# Site de Música 🎶
 
-> Status do projeto: Finalizado.
+Este projeto foi umas das minhas primeiras aplicações web a serem desenvolvidas. Ele foi produzido a partir dos conhecimentos que adquiri no SENAC de São Lepoldo.
 
-```
-Este site foi desenvolvido a partir de uma atividade proposta em aula.
+## Status do projeto
 
-Obs: a responsividade do site não está 100%
-```
+*Finalizado ✅*
+
+## Modelos Base
+
+#### Para projetar esta aplicação, foi utilzado como modelo referência os seguintes sites:
+
+- Spotify
+- Deezer
+
+## Contato
+
+- **E-mail:** apossebonn@gmail.com
+- **Linkedin:** <a href="https://www.linkedin.com/in/arthur-possebon-74a845268/">Link</a>
